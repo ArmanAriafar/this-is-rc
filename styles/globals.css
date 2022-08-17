@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.transitionDuration {
-    transition: 500ms ease-in-out;
+.dropShadowBanner {
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
+}
+
+.orangeBgHalf {
+    background: linear-gradient(
+        0deg,
+        rgba(249, 115, 22, 0.5) 0%,
+        rgba(249, 115, 22, 0.5) 45%,
+        rgba(255, 255, 255, 0) 45%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+.primaryBtnBg {
+    background: linear-gradient(273.32deg, #ff4800 0.5%, #ff6d00 98.98%);
 }
