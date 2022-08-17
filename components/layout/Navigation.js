@@ -32,7 +32,7 @@ const Navigation = () => {
         // Mobile
         return (
             <nav className="fixed bottom-0 right-0 z-[200] w-full border-t-2 border-orange-500 bg-white lg:hidden">
-                <div className="mx-auto grid w-full max-w-md grid-cols-4 pb-5 items-center justify-items-center py-2 font-sans text-sm font-extrabold text-stone-400">
+                <div className="mx-auto grid w-full max-w-md grid-cols-4 items-center justify-items-center py-2 pb-5 font-sans text-sm font-extrabold text-stone-400">
                     <Link href="/">
                         <a
                             className={` flex w-full flex-col items-center justify-center h-full${
@@ -81,8 +81,8 @@ const Navigation = () => {
         return (
             <nav
                 className="
-                fixed top-0 left-1/2 grid w-full max-w-5xl -translate-x-1/2 grid-cols-2 items-center justify-items-center 
-                rounded-b-2xl border-b-4 border-orange-500 bg-white py-5 px-6 shadow-xl"
+                fixed top-0 left-1/2 z-[200] grid w-full max-w-5xl -translate-x-1/2 grid-cols-2 items-center 
+                justify-items-center rounded-b-2xl border-b-4 border-orange-500 bg-white py-5 px-6 shadow-xl"
             >
                 <div className="grid w-full grid-cols-3 items-center justify-items-start justify-self-start">
                     <Link href="/">

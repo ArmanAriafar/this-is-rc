@@ -266,7 +266,7 @@ const Footer = () => {
                             این یک متن ساختگی است. این یک متن ساختگی است.این یک متن ساختگی است.
                         </p>
                         <a href="#" className="mt-4 text-sm duration-200 hover:text-green-500 hover:drop-shadow-lg">
-                            پشتیبانی واتس‌اپ: ۰۰۷۳ ۲۸۷ ۰۹۳۵
+                            پشتیبانی واتس‌اپ: ۰۹۳۵۲۸۷۰۰۷۳
                         </a>
                     </div>
                 </div>
